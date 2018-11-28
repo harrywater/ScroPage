@@ -2,7 +2,6 @@
 利用scrollView加载N个UIView视图的性能优化方案
 
 1、scro加载N个视图UIView。
-2、利用runtime根据类名动态加入
 
 问题：如果直接把N个视图都add到scro上面滑动显示。特别是当subview的内容很多有各种动画，图文等时，可能内存非常巨大导致crash
 
